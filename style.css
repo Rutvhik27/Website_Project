@@ -1,0 +1,166 @@
+body { 
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0e6d6; 
+}
+
+header {
+    background: linear-gradient(45deg, #e59b00, #fbc513);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-bottom: 5px solid #b00000;
+}
+
+header .logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo {
+    width: 80px; 
+    margin-right: 15px;
+}
+
+header h1 {
+    font-size: 2.2em;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+}
+
+nav {
+    background-color: #b00000; 
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 8px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #b00000;
+    border-radius: 5px;
+}
+
+section {
+    text-align: center;
+    background-color: #d4af37; 
+    padding: 30px 0;
+}
+
+.main-image {
+    display: block;
+    margin: 0 auto; /* Center the image */
+    width: 300px; 
+    border: 5px solid #fff; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #b00000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.contact-section {
+    background-color: #f0e6d6;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    width: 50%;
+    margin: 50px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+    font-size: 2em;
+    color: #b00000;
+    margin-bottom: 20px;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section label {
+    font-size: 1.2em;
+    margin-top: 15px;
+    color: #333;
+}
+
+.contact-section input, .contact-section textarea {
+    padding: 10px;
+    font-size: 1em;
+    width: 80%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-section button {
+    background-color: #b00000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.contact-section button:hover {
+    background-color:solid #b00000;
+}
+
+/* Custom Navbar Styling */
+.navbar-custom {
+    background-color: #b30000; /* Custom red color */
+}
+
+.navbar-custom .nav-link {
+    color: white; /* Default link color */
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link:focus,
+.navbar-custom .nav-link.active {
+    color: black; /* Turn black on hover and active */
+}
+
+/* Additional Styling */
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #b30000;
+}
